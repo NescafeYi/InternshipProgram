@@ -1,0 +1,238 @@
+
+h2{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 40px;
+	margin-bottom: 25px;
+	line-height: 25px;
+	background: url(../img/title_bg.png)no-repeat center;
+}
+h3{
+	font-size: 16px;
+	color: #00A0E9;
+}
+
+
+
+/*主体宽度*/
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*banner*/
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+.header{
+	height: 60px;
+	background-color: #00a0e9;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.header .logo{
+	float: left;
+}
+.header .nav{
+	float: right;
+}
+.header .nav li{
+	text-align: center;
+	line-height: 60px;
+	padding: 0 25px;
+	float: left;
+}
+.header .nav li a{
+	font-size: 18px;
+	color: #fff;
+}
+.header .nav .act{
+	background: url(../img/nav_bg.png) no-repeat top;	
+}
+.header .nav .act a{
+	color: #00A0E9;
+}
+.header .nav .act2{
+	background: url(../img/nav_bg2.png) no-repeat top;
+}
+.header .nav .act2 a{
+	color: #00A0E9;
+}
+
+
+/*index*/
+.index{
+	margin-bottom: 80px;
+}
+.index_one p{
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+.index_one p strong{
+	font-size: 16px;
+	color: #00A0E9;
+}
+
+
+/*deal*/
+.deal{
+	margin-bottom: 80px;
+}
+.deal_one {
+	margin-bottom: 15px;
+}
+.deal_one ul{
+	margin-left: 50px;
+}
+.deal_one ul li{
+	font-size: 15px;
+	line-height: 30px;
+	list-style-type: disc;
+}
+.deal_two p {
+	text-indent: 2em;
+	font-size: 15px;
+	line-height: 30px;
+}
+.deal_three p {
+	text-indent: 2em;
+	font-size: 15px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.deal_three table{
+	text-align: center;
+}
+.deal_three table th{
+	color: #fff;
+	font-size: 16px;
+	height: 30px;
+	border: 1px solid #00A0E9;
+	background-color: #00A0E9;
+}
+.deal_three table td{
+	font-size: 15px;
+	height: 35px;
+	border: 1px solid #00A0E9;
+}
+
+
+/*job*/
+.job{
+	margin-bottom: 150px;
+}
+.job_one{
+	/*position: relative;*/
+	width: 800px;
+	margin: 0 auto;
+}
+
+.job_one table{
+	margin-top: 50px;
+	text-align: center;
+}
+.job_one table th{
+	color: #fff;
+	height: 25px;
+	font-size: 15px;
+	background-color: #00A0E9;
+	border: 1px solid #00A0E9;
+}
+.job_one table td{
+	text-align: center;
+	height: 35px;
+	font-size: 16px;
+	border: 1px solid #00A0E9;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.job_one table td p{
+	font-size: 15px;
+}
+.job_one table td a{
+	color: #00A0E9;
+	border: 1px solid #00A0E9;
+	padding: 3px;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*.job_one h1{
+	font-size: 25px;
+	color: #00A0E9;
+	padding:0 0 15px 20px;
+	margin-top: 80px;
+	border-bottom: 1px solid #00A0E9;
+}
+.job_one a{
+	position: absolute;
+	top: 0;
+	right: 10%;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	background: url(../img/a_bg.png) no-repeat center;
+	padding: 10px 40px;
+}*/
+/*.job_one p{
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.job_one ul{
+	padding-left: 20px;
+}
+.job_one ul li{
+	font-size: 18px;
+	list-style-type: disc;
+	margin-left: 40px;
+	line-height: 30px;
+}
+.job_one ul li p{
+	text-indent: 4em;
+}*/
+
+
+/*mien*/
+.mien{
+	margin-bottom: 80px;
+}
+
+
+/*contacts*/
+.contacts{
+	margin-bottom: 120px;
+}
+.contacts p{
+	font-size: 16px;
+	line-height: 35px;
+	margin-left: 40px;
+}
+.contacts img{
+	margin-left: 40px;
+}
+
+
+
+/*footer*/
+.footer{
+	text-align: center;
+	background-color: #00A0E9;
+}
+.footer p{
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+.footer img{
+	padding: 15px 3px;
+}

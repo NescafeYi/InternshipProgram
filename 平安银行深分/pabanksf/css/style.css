@@ -1,0 +1,319 @@
+/*全局样式*/
+.title img{
+	display: block;
+	margin: 0 auto;
+	padding: 70px 0 35px 0;
+	-webkit-text-size-adjust: none;
+}
+
+
+/*主体宽度*/
+.w960{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+.header .logo{
+	float: left;
+}
+.header .logo img{
+	padding: 20px;
+}
+.header .nav{
+	overflow: hidden;
+}
+.header .nav ul{
+	float: right;
+	padding-top: 22px;
+}
+.header .nav ul li{
+	float: left;
+	background: url(../img/nav_bg.png) no-repeat top center;
+	width: 137px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.header .nav ul li a{
+	width: 137px;
+	line-height: 30px;
+	color: #fff;
+}
+
+
+/*banner*/
+.banner{
+	max-width: 1440px;
+	min-width: 960px;
+	margin: 0 auto;
+}
+.banner img{
+	width: 100%;
+}
+
+.content{
+	padding-bottom: 100px;
+}
+
+/*index*/
+.index_main{
+	overflow: hidden;
+	width: 800px;
+	margin: 0 auto;
+}
+.index_main .index_left{
+	float: left;
+	width: 65%;
+}
+.index_main .index_left p{
+	text-indent: 2em;
+	line-height: 26px;
+	font-size: 14px;
+}
+.index_main .index_left span{
+	display: block;
+	width: 100%;
+	border-bottom: 1px dashed #EA5504;
+	padding-top: 26px;
+	margin-bottom: 26px;
+}
+.index_main .index_right{
+	float: right;
+	width: 30%;
+}
+.index_main .index_right img{
+	padding-bottom: 15px;
+}
+
+
+/*job*/
+
+.job_box{
+	width: 716px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.job_box h3{
+	font-size: 16px;
+}
+.job-tit{
+	width: 716px;
+	height: 41px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 10px;
+	background: url(../img/job_bg.png) no-repeat left center;
+}
+.job-tit img{
+	padding: 16px 20px 0 10px;
+}
+.job-tit span{
+	padding-right: 10px;
+	color: #EA5504;
+	font-size: 16px;
+	line-height: 41px;
+}
+.job-tit #job_name{
+	padding-right: 135px;
+	font-size: 18px;
+}
+.job-tit  a{
+	background-color: #EA5504;
+	color: #FFFFFF;
+	padding: 5px;
+}
+.job-tit  a:hover{
+	border: 1px solid #000;
+	/*text-shadow: 2px 2px 2px #000;*/
+}
+.job_left{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.job_left p{
+	line-height: 25px;
+}
+.job_rigt{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.job_rigt ul li{
+	list-style-type: decimal ;
+	margin-left: 20px;
+	line-height: 25px;
+}
+
+
+/*procedure*/
+.procedure > img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*city*/
+.city_main .city_map{
+	position: relative;
+	margin: 0 auto;
+	width: 672px;
+	height: auto;
+}
+.city_main .tips{
+    background: rgb(228, 144, 63);
+	width: 132px;
+	height: 75px;
+	color: #fff;
+	border-radius: 15px;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	font-size: 16px;
+	position: absolute;
+	top: -26px;
+    right: 20px;
+    display: none;
+    z-index: 5;
+}
+.city_main .tips2{
+	left: 20px;
+}
+/*广州*/
+.city_main a{
+	display: block;
+	background: url(../img/map_abg.png) no-repeat center center;
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+    cursor: pointer;
+}
+/*广州*/
+.city_map .guangzhou{
+	top: 373px;
+    right: 253px;
+}
+.city_map .guangzhou:hover .tips{
+	display: block;
+}
+/*深圳*/
+.city_map .shenzhen{
+	top: 375px;
+    right: 228px;
+}
+.city_map .shenzhen:hover .tips{
+	display: block;
+}
+/*厦门*/
+.city_map .xiamen{
+    top: 352px;
+    right: 200px;
+}
+.city_map .xiamen:hover .tips{
+	display: block;
+}
+/*上海*/
+.city_map .shanghai{
+	top: 259px;
+    right: 176px;
+}
+.city_map .shanghai:hover .tips{
+	display: block;
+}
+/*南昌*/
+.city_map .nanchang{
+	top: 298px;
+    right: 224px;
+}
+.city_map .nanchang:hover .tips{
+	display: block;
+}
+/*南京*/
+.city_map .nanjing{
+	top: 253px;
+    right: 198px;
+}
+.city_map .nanjing:hover .tips{
+	display: block;
+}
+/*济南*/
+.city_map .jinan{
+    top: 191px;
+    right: 228px;
+}
+.city_map .jinan:hover .tips{
+	display: block;
+}
+/*北京*/
+.city_map .beijing{
+    top: 150px;
+    right: 244px;
+}
+.city_map .beijing:hover .tips{
+	display: block;
+}
+/*武汉*/
+.city_map .wuhan{
+    top: 276px;
+    right: 250px;
+}
+.city_map .wuhan:hover .tips{
+	display: block;
+}
+/*长沙*/
+.city_map .changsha{
+    top: 307px;
+    right: 265px;
+}
+.city_map .changsha:hover .tips{
+	display: block;
+}
+/*西安*/
+.city_map .xian{
+    top: 230px;
+    right: 315px;
+}
+.city_map .xian:hover .tips{
+	display: block;
+}
+/*重庆*/
+.city_map .chongqing{
+    top: 273px;
+    right: 324px;
+}
+.city_map .chongqing:hover .tips{
+	display: block;
+}
+/*成都*/
+.city_map .chengdu{
+    top: 277px;
+    right: 367px;
+}
+.city_map .chengdu:hover .tips{
+	display: block;
+}
+
+
+
+
+/*footer*/
+.footer{
+	max-width: 1440px;
+	min-width: 960px;
+	margin: 0 auto;
+	background-color: #ea5504;
+}
+.footer p{
+	color: #fff;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+.footer img{
+	padding: 7px;
+}

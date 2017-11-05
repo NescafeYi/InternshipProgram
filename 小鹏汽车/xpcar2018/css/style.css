@@ -1,0 +1,188 @@
+
+
+body{
+	background-color: #010e2b;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+	/*border: 1px solid #fff;*/
+}
+h2{
+	position: relative;
+	left: -260px;
+	color: #010e2b;
+	font-size: 24px;
+	line-height: 65px;
+	padding: 40px 0 40px 210px ;
+	background: url(../img/title_bg.png) no-repeat left center;
+}
+h3{
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+}
+.banner img{
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+}
+
+/*nav*/
+.nav{
+	overflow: hidden;
+	height: 62px;
+	border-top: 1px solid #fff;
+	background:  url(../img/nav_bg.png) repeat-x top center;
+}
+.nav ul{
+	padding: 0 160px;
+}
+.nav ul li{
+	float: left;
+	padding: 0 40px;
+}
+.nav ul li a{
+	color: #fff;
+	font-size: 20px;
+	line-height: 45px;
+}
+.nav .act{
+	font-weight: bold;
+}
+
+
+/*index*/
+.index{
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+}
+.index > img{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.index > a{
+	position: absolute;
+	top: 64%;
+	left: 18%;
+}
+
+
+/*info*/
+.info{
+	padding-bottom: 80px;
+}
+.info_main{
+	overflow: hidden;
+}
+.info_main p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 30px;
+}
+.info_left{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.info_right{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+/*trip*/
+.trip{
+	padding-bottom: 200px;
+}
+.trip .trip_table table{
+	width: 850px;
+	margin: 0 auto;
+	text-align: center;
+}
+.trip .trip_table table tr th{
+	color: #fff;
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid #00cce9;
+}
+.trip .trip_table table tr td{
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 95px;
+	border-bottom: 1px dashed #00CCE9;
+}
+.trip .trip_table table tr td img{
+	padding: 40px 5px;
+}
+
+
+
+
+/*job*/
+.job{
+	padding-bottom: 200px;
+}
+.job .job_table{
+	height: auto;
+	width: 850px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 70px 50px 70px 50px;
+	background: url(../img/job_tbg.png) no-repeat;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	/*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/job_tbg.png',sizingMethod='scale');*/ 
+}
+.job_table table{
+	width: 700px;
+	margin: 0 auto;
+	
+}
+.job_table table tr th{
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 50px;
+	border-bottom: 2px solid #00CCE9;
+}
+.job_table table tr td{
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 50px;
+	border-bottom: 2px solid #00CCE9;
+}
+.job_table table tr td a{
+	color: #00c4e0;
+}
+
+
+
+
+/*footer*/
+.footer{
+	height: 45px;
+	border-top: 1px solid #fff;
+}
+.footer p{
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+}
+.footer img{
+	padding: 10px;
+}

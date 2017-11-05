@@ -1,0 +1,160 @@
+
+
+/*主体宽度*/
+.w1000{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+.header .banner{
+	position: relative;
+	width: 100%;
+	min-width: 1100px;
+}
+.header .banner img{
+	width: 100%;
+	min-width: 1100px;
+}
+
+.header .w1000{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.header .nav{
+	width: 1100px;
+	margin: 0 auto;
+}
+.header .nav ul{
+	float: right;
+}
+.header .nav ul li {
+	padding: 20px 25px;
+	float: left;
+}
+.header .nav ul li a{
+	font-size: 22px;
+	color: #4f2b11;
+}
+.header .nav ul .act{
+	background: url(../img/nav_bg.png) no-repeat center center;	
+}
+.header .nav ul .act a{
+	color: #fff;
+}
+.header .nav ul .act2{
+	background: url(../img/nav_bg2.png) no-repeat center center;	
+}
+.header .nav ul .act2 a{
+	color: #fff;
+}
+
+
+/*index*/
+.index{
+	margin-bottom: 50px;
+}
+.main_p{
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.main_p p{
+	line-height: 30px;
+	font-size: 16px;
+	text-indent: 2em;
+}
+
+
+/*job*/
+.job{
+	margin-bottom: 80px;
+}
+.job_table{
+	margin-bottom: 30px;
+}
+.job_table table{
+	background: #f8f0d2;
+	margin: 0 auto;
+	padding: 10px;
+}
+.job_table table tr th{
+	height: 50px;
+	font-size: 20px;
+	color: #25256e;
+	border: 10px solid #f8f0d2;
+}
+.job_table table tr td{
+	height: 160px;
+	border: 10px solid #f8f0d2;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.job_table table tr td p{
+	border: 1px dashed #fff;	
+	box-sizing: border-box;
+	height: 100%;
+	padding: 5px 10px;
+	color: #fff;
+	line-height: 18px;
+}
+.job_table table tr td:first-child p{
+	text-align: center;
+	padding: 53px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+.job_table table tr td:last-child{
+	border-left: 20px solid #F8F0D2;
+}
+.job_table table tr td:last-child p{
+	padding:53px 15px ;	
+	
+}
+.job_table table tr td:last-child p a{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.job .ask ul{
+	padding-left: 100px;
+}
+.job .ask ul li{
+	background: url(../img/job_libg.png)no-repeat left center;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+
+
+/*well*/
+.well_main ul{
+	padding-top: 30px;
+	padding-left: 280px;
+	padding-bottom: 80px;
+}
+.well_main ul li{
+	background: url(../img/well_libg.png) no-repeat left center;
+	padding-left: 50px;
+	line-height: 45px;
+	font-size: 22px;
+}
+
+
+/*footer*/
+.footer{
+	background-color: #94c11e;
+	text-align: center;
+}
+.footer p{
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+}
+.footer img{
+	padding: 7px 5px;
+}

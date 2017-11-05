@@ -1,0 +1,193 @@
+
+
+/*主体宽度*/
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*nav*/
+.logo{
+	float: left;
+}
+.logo img{
+	padding: 10px;
+}
+.nav ul{
+	padding-top: 30px;
+	float: right;
+}
+.nav ul li{
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0 10px;
+	float: left;
+	padding: 2px;
+}
+.nav ul li a{
+	padding: 5px;
+	/*background-color: #003b83;*/
+	color: #000;
+}
+.nav .act{
+	background-color: #003B83;
+}
+.nav .act a{
+	color: #fff;
+}
+
+/*banner*/
+.banner{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.banner img{
+	width: 100%;
+	min-width: 1000px;
+}
+
+/*index*/
+.index_main{
+	margin-bottom: 50px;
+}
+.index_main .index_top p{
+	text-indent: 2em;
+	line-height: 30px;
+	font-size: 16px;
+}
+.index_main .index_bottom li{
+	list-style-image: url(../img/index_libg.png);
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #e9323c;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.index_main .index_bottom li p{
+	color: #4d4c4c;
+	font-size: 16px;
+}
+
+
+/*entry*/
+.entry{
+	margin-bottom: 80px;
+}
+.job{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.job_left{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 366px;
+	background: url(../img/job_bg_03.jpg) no-repeat;
+	background-size: 100% 366px;
+	box-sizing: border-box;
+	padding: 0 10px 0 10px;
+}
+.job_left h4{
+	color: #fff;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+.job_left h5{
+	color: #3763AE;
+	font-weight: bold;
+}
+.job_left p{
+	line-height: 22px;
+}
+.job_left a{
+	position: absolute;
+	background: url(../img/a_bg.png) no-repeat center;
+	padding: 12px;
+	color: #fff;
+	right: 8%;
+	bottom: 3%;
+}
+.job_left #ask{
+	color: #3763ae;
+}
+.job_right{
+	float: right;
+}
+
+
+/*here*/
+.here_main{
+	margin-bottom: 50px;
+}
+.here_main p{
+	font-size: 16px;
+	line-height: 30px;
+}
+.here_one h4{
+	color: #e60012;
+	margin: 40px 0 20px 0;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 30px;
+}
+.here_two{
+	margin-bottom: 50px;
+}
+.here_two p{
+	text-indent: 2em;
+}
+.here_three p{
+	text-indent: 2em;
+} 
+
+
+/*life*/
+.life{
+	margin-bottom: 100px;
+}
+.life p{
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+.life_one p{
+	margin-bottom: 20px;
+}
+.life_two P{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*qa*/
+.qa{
+	margin-bottom: 80px;
+}
+.qa_one li{
+	margin-bottom: 30px;
+}
+.qa_one li p{
+	line-height: 25px;
+}
+.qa_one ul li p:first-child{
+	font-size: 14px;
+	font-weight: bold;
+	color: #003b83;
+}
+.qa_two p{
+	font-weight: bold;
+	color: #003b83;
+	line-height: 25px;
+}
+
+/*footer*/
+.footer p{
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	background-color: #003b83;
+}
+.footer img{
+	padding: 14px 0;
+}

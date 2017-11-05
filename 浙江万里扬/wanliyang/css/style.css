@@ -1,0 +1,122 @@
+/*reset*/
+@charset "utf-8";
+*{ margin:0; padding:0;}
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,button,textarea,table,tbody,tfoot,thead,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;outline:0;background:transparent;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+body,button,input,select,textarea{font:12px/1.5 arial,\5b8b\4f53,sans-serif;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+/*small{font-size:12px;}*/
+ul,ol,li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;outline:thin none;}
+a:hover{text-decoration:underline;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{clear:both;}
+.clearfix{ overflow:hidden; zoom:1;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+
+
+
+/*全局*/
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*logo*/
+
+
+/*banner*/
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+
+/*nav*/
+.nav{
+	width: 100%;
+	background-color:#f03001 ;
+}
+.nav .nav-a{
+	margin: 0 auto; 
+	text-align: center;
+}
+.nav .nav-a a{
+	font-size: 18px;
+	color: #fff;
+	line-height: 60px;
+	width: 50px;
+	padding: 18px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+.nav .nav-bg{
+	background: url(../img/nav-bg.png) no-repeat center;	
+}
+
+/*content*/
+.content{
+	margin-bottom: 20px;
+}
+
+/*footer*/
+.footer{
+	background-color: #F03001;
+}
+.footer p{
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+
+
+/*index*/
+.index02 p{
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: "微软雅黑";
+}
+
+/*position*/
+#table{
+	width: 970px;
+	margin: 0 auto;
+}
+#table th{
+	color: #fff;
+	font-size: 18px;
+	
+}
+#table tr,th,td{
+	border: 2px solid #F03000;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+#table th{
+	height: 62px;
+	background-color: #f03000;
+}
+#td-left{
+	text-align: left;
+	padding: 10px;
+}
+#sq a{
+	line-height: 30px;
+	color: #fff;
+	padding: 7px;
+	border: 1px solid #000;
+	background-color: #00a0e9;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px #000;
+	font-family: "微软雅黑";
+}

@@ -1,0 +1,207 @@
+
+h2{
+	width: 140px;
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+	font-size: 20px;
+	padding-left: 30px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background: url(../img/title_bg.png) no-repeat left center;
+	
+}
+
+
+/*主体宽度*/
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+.header{
+	overflow: hidden;
+}
+.header .logo{
+	padding: 5px;
+	float: left;
+}
+.header .nav{
+	overflow: hidden;
+}
+.header .nav ul{
+	float: right;
+	padding-top: 13px;
+}
+.header .nav ul li {
+	float: left;
+	padding: 8px 25px;
+	margin: 0 2px ;
+	border-bottom:  5px solid #898989;
+}
+.header .nav ul li a{
+	font-size: 22px;
+	color: #333333;
+}
+.header .nav ul .act{
+	border-bottom:5px solid #80c9be;
+}
+.header .nav ul .act a{
+	color: #80c9be;
+	font-weight: bold;
+}
+
+
+/*banner*/
+.banner{
+	width: 100%;
+	min-width: 1000px;
+}
+.banner img{
+	width: 100%;
+	min-width: 1000px;
+}
+
+
+/*index*/
+.index{
+	padding-bottom: 80px;
+}
+.index_one{
+	overflow: hidden;
+}
+.index_one .index_l{
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.index_one .index_l p{
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: 30px;
+	text-indent: 2em;
+}
+.index_one .index_r{
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 20px 10px;
+}
+.index_two ul{
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+.index_two ul li {
+	list-style-type: square;
+	font-size: 16px;
+	line-height: 30px;
+}
+.index_two p {
+	line-height: 30px;
+	font-size: 16px;
+	padding-bottom: 30px;
+	text-indent: 2em;
+}
+.index_three p{
+	font-size: 16px;
+	line-height: 35px;
+}
+.index_three b{
+	font-size: 18px;
+}
+.index_three p a{
+	color: #80C9BE;
+	text-decoration: underline;
+}
+
+
+/*welfare*/
+.wel_main{
+	padding-top: 15px;
+	padding-bottom: 130px;
+}
+
+
+/*procedure*/
+.procedure{
+	padding-bottom: 120px;
+}
+.pro_main > img{
+	display: block;
+	padding: 20px 0 50px 0;
+	margin: 0 auto;
+}
+.pro_main h3{
+	font-size: 18px;
+	line-height: 40px;
+}
+.pro_main p{
+	font-size: 16px;
+	line-height: 35px;
+}
+
+
+/*job*/
+.job{
+	padding-bottom: 80px;
+}
+.job_box{
+	padding-left: 30px;
+	padding-bottom: 25px;
+	margin-bottom: 40px;
+	border-bottom:  1px dashed #DE5F0F;
+}
+.job_box h3{
+	font-size: 18px;
+	color: #de5f0f;
+}
+.job_box h4{
+	font-size: 17px;
+	line-height: 40px;
+	color: #de5f0f;
+	padding-left: 30px;
+}
+.job_box h4 img{
+	padding: 13px 10px 0 0;
+}
+.job_box ul{
+	padding-left: 60px;
+}
+.job_box ul li {
+	font-size: 16px;
+	line-height: 30px;
+}
+.job_box p{
+	padding-left: 60px;
+	color: #DE5F0F;
+	font-size: 16px;
+}
+.job_box a{
+	display: block;
+	width: 129px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 700px;
+	background: url(../img/job_abg.png) no-repeat top center;
+}
+
+
+/*footer*/
+.footer{
+	background-color: #80c9be;
+}
+.footer p{
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+}
+.footer img{
+	padding: 25px 5px 0 0;
+}

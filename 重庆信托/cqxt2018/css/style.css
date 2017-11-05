@@ -1,0 +1,210 @@
+
+body{
+	overflow-x: hidden;
+}
+
+
+
+/*主体宽度*/
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+h2{
+	max-width: 1440px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+h2 img{
+	padding: 60px 0;
+	width: 100%;
+}
+h3{
+	font-size: 20px;
+}
+h4{
+	line-height: 35px;
+	font-size: 18px;
+}
+
+
+/*header*/
+
+.header .banner{
+	position: relative;
+	max-width: 1440px;
+	min-width: 1000px;
+	margin: 0 auto;
+	height: auto;
+}
+.header .banner img{
+	width: 100%;
+	min-width:  1000px;
+}
+.header .banner .w1000{
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+.header .banner .w1000 .nav{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header .banner .w1000 .nav ul{
+	float: right;
+}
+.header .banner .w1000 .nav ul li{
+	float: left;
+	padding: 30px;
+}
+.header .banner .w1000 .nav ul li a{
+	color: #fff;
+	font-size: 20px;
+}
+.header .banner .w1000 .nav ul li .act{
+	border-bottom: 2px solid #c90300;
+}
+
+/*index*/
+.index{
+	padding-bottom: 80px;
+}
+.index_main{
+	overflow: hidden;
+}
+.index_main .index_p{
+	float: left;
+	width: 70%;
+}
+.index_main .index_img{
+	float: right;
+	width: 28%;
+}
+.index_main .index_p p {
+	text-indent: 2em;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+
+/*job*/
+.job{
+	padding-bottom: 80px;
+}
+.job .red_p{
+	font-size: 16px; 
+	color: #C90300;
+	padding: 30px 0; 
+	font-weight: lighter; 
+	text-indent: 4em;
+}
+.job_one{
+	padding-bottom: 100px;
+}
+.job_one .job_ask{
+	overflow: hidden;
+	padding-left: 30px;
+}
+.job_one .job_ask ul li{
+	list-style: decimal;
+	margin:  0 50px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.job_one .job_ask a{
+	float: right;
+	display: block;
+	width: 280px;
+	height: 83px;
+	line-height: 83px;
+	font-size: 28px;
+	color: #fff;
+	box-sizing: border-box;
+	padding-left: 120px;
+	background: url(../img/job_sq.png) no-repeat left center;
+}
+.job_two p{
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 50px;
+	padding-right: 30px;
+}
+.job_two .job_bottom{
+	padding-left: 30px;
+}
+
+
+/*trip*/
+.trip{
+	padding-bottom: 80px;
+}
+.trip_table{
+	width: 900px;
+	margin: 0 auto;
+}
+.trip_table table{
+	width: 900px;
+	font-size: 16px;
+}
+.trip_table table tr th{
+	border: 1px solid #c90300;
+	background-color: #C90300;
+	color: #fff;
+	line-height: 25px;
+}
+.trip_table table tr td{
+	border: 1px solid #c90300;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+
+/*join*/
+.join{
+	padding-bottom: 80px;
+}
+.join h4{
+	font-weight: normal;
+	font-size: 18px;
+}
+.join p{
+	padding-left: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.join .join_one{
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+.join .join_one p a{
+	color: #0000ff;
+	text-decoration: underline ;
+}
+.join .join_one p span{
+	color: #0000ff;
+	text-decoration: underline ;
+}
+.join .join_two{
+	padding-left: 30px;
+}
+
+
+
+/*footer*/
+.footer{
+	background-color: #282828;
+	max-width: 1440px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.footer p{
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+}
+.footer p img{
+	padding: 6px;
+}

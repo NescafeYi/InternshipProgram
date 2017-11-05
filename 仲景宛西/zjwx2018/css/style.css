@@ -1,0 +1,186 @@
+
+
+/*主体宽度*/
+.w938{
+	width: 938px;
+	margin: 0 auto;
+}
+
+/*h2样式*/
+h2{
+	line-height: 35px;
+	font-size: 20px;
+	padding: 40px 0 0 28px;
+	margin-bottom: 25px;
+	color: #CB2E27;
+	background: url(../img/title_bg.png) no-repeat left bottom;
+}
+
+
+
+/*header*/
+.header{
+	max-width: 1440px;
+	min-width: 950px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header .w938{
+	padding-top: 5px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #CB2E27;	
+}
+.header .logo{
+	float: left;
+}
+.header .logo img{
+	padding: 5px;
+}
+.header .nav{
+	overflow: hidden;
+}
+.header .nav ul{
+	float: right;
+	margin-right: -24px;
+}
+.header .nav ul li{
+	float: left;
+}
+.header .nav ul li a{
+	display: block;
+	background-color: #d1d0d8;
+	width: 147px;
+	height: 55px;
+	margin: 0 1px;
+	transform: skewX(-40deg);
+	-ms-transform: skewX(-40deg);
+	-moz-transform: skewX(-40deg);
+	-webkit-transform: skewX(-40deg);
+	
+}
+.header .nav ul li a p{
+	display: block;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #cb2e27;
+	transform: skewX(40deg);
+	-ms-transform: skewX(40deg);
+	-moz-transform: skewX(40deg);
+	-webkit-transform: skewX(40deg);
+	
+}
+.header .nav ul li:last-child a{
+	padding-right: 20px;
+}
+.header .nav .act{
+	background-color: #CB2E27;
+}
+.header .nav .act p{
+	color: #fff;
+}
+
+/*banner*/
+.banner{
+	max-width: 1440px;
+	min-width: 938px;
+	margin: 0 auto;
+}
+.banner img{
+	width: 100%;
+}
+
+
+
+/*index*/
+.index .index_main{
+	padding-bottom: 80px;
+}
+.index .index_main p{
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*culture*/
+.cul_mian {
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
+
+
+/*job*/
+.job_box{
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.job_box h3{
+	background-color: #e5e5e5;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	color: #CB2E27;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.job_box h3 img{
+	padding: 17px 15px 0 30px;
+}
+.job_box span{
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 80px;
+} 
+.job_box p{
+	display: inline-block;
+	vertical-align: top;
+	width: 700px;
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+.job_box ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 700px;
+	font-size: 16px;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+.job_box a{
+	display: block;
+	float: right;
+	padding: 5px 13px;
+	font-size: 17px;
+	border-radius: 10px;
+	color: #fff;
+	margin: 10px 20px 0 0; 
+	background-color: #CB2E27;
+}
+.job_bottom{
+	padding: 50px 0 40px 0;
+	font-size: 18px;
+}
+
+
+
+
+/*footer*/
+.footer{
+	max-width: 1440px;
+	min-width: 938px;
+	margin:  0 auto;
+	height: 65px;
+	background-color: #CB2E27;
+}
+.footer p{
+	line-height: 65px;
+	text-align: center;
+	color: #fff;
+}
+.footer img{
+	padding: 22px 5px 0 0;
+}

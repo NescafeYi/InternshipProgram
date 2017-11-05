@@ -1,0 +1,178 @@
+
+/*主体宽度*/
+.w1000{
+	width: 1000px;
+	margin:  0 auto;
+}
+
+h5{
+	font-family: "微软雅黑";
+	color: #fff;
+	width: 200px;
+	float: right;
+	font-size: 18px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+
+/*header*/
+.header{
+	height: 64px;
+	width: 100%;
+	background-color: #00498b;
+	margin-bottom: 50px;
+}
+.logo{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+/*nav*/
+.nav{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.nav p{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 64px;
+	width: 175px;
+	height: 87px;
+}
+.act{
+	background: url(../img/nav_bg.png) no-repeat top;	
+}
+.nav p a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+
+
+/*index*/
+.index_mian{
+	background: url(../img/index_bg.png) no-repeat center;
+	height: 530px;
+	box-sizing: border-box;
+	padding-top: 130px;
+	margin-bottom: 200px;
+}
+.index_mian h5{
+	font-family: "微软雅黑";
+	color: #fff;
+	width: 200px;
+	float: right;
+	font-size: 18px;
+}
+.index_mian p{
+	font-family: "微软雅黑";
+	float: right;
+	color: #fff;
+	width: 670px;
+	text-indent: 2em;
+	text-align: left;
+	line-height: 30px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+
+/*job*/
+.job_main{
+	background: url(../img/job_bg.png)no-repeat center;
+	height: 830px;
+	padding-top: 110px;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.job_table{
+	float: right;
+	margin-right: 20px;
+}
+.job_table tr,th,td{
+	border: 1px solid #FFF;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.job_table th{
+	background-color: #fff;
+	color: #00498B;
+	line-height: 48px;
+	font-size: 18px;
+}
+.job_table td{
+	line-height: 38px;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.job_table td a{
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-shadow: 2px 2px 5px #000;
+	text-decoration: none;
+	background-color: #006cce;
+	padding: 5px;
+	border: 2px solid #FFFFFF;
+}
+.job_table #ewm{
+	margin-top: 20px;
+}
+
+
+/*trip*/
+.trip_main{
+	overflow: hidden;
+	height: auto;
+	margin-bottom: 60px;
+}
+.trip_main #t_table{
+	width: 950px;
+	margin: 0 auto;
+}
+.trip_main #t_table > span{
+	float: left;
+	color: #00498B;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 18px;
+	background: url(../img/city_bg.png)no-repeat center;
+	padding: 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.trip_main #t_table table{
+	min-height: 80px;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+	color: #00498b;
+	font-family: "微软雅黑";
+	background-color: #ebebeb;
+	margin-bottom: 20px;
+}
+.trip_main #t_table table td{
+	text-align: left;
+	padding-left: 10px;
+}
+.trip_main #t_table img{
+	float: left;
+}
+
+/*foter*/
+.footer p{
+	line-height: 50px;
+	font-family: "微软雅黑";
+	text-align: center;
+	background-color: #00498B;
+	color: #FFFFFF;
+
+}

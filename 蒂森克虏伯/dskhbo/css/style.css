@@ -1,0 +1,214 @@
+/*reset*/
+@charset "utf-8";
+*{ margin:0; padding:0;}
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,button,textarea,table,tbody,tfoot,thead,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;outline:0;background:transparent;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+body,button,input,select,textarea{font:12px/1.5 arial,\5b8b\4f53,sans-serif;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+/*small{font-size:12px;}*/
+ul,ol,li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;outline:thin none;}
+a:hover{text-decoration:underline;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{clear:both;}
+.clearfix{ overflow:hidden; zoom:1;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+
+/*全局*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+html,body{
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+.w1280{
+	width: 1280px;
+	margin: 0 auto;
+}
+ul,li,a{
+	list-style: none;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+tr,td{
+	border: 1px solid #00FFEA
+}
+
+
+/*header*/
+#header{
+	min-width: 1280px;
+	height: 96px;
+	margin: 0 auto;
+	background-color:#009ff0 ;
+}
+#header #logo{
+	display: inline-block;
+}
+#header #nav{
+	margin-top: 5.2%;
+	display: inline-block;
+}
+#header #nav a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: bold;
+	line-height: 20px;
+	height: 20px;
+	font-family: "微软雅黑";
+}
+#header #nav a:hover{
+	border-bottom: 2px solid #000;
+	padding-bottom: 3px;
+	color: #000;
+	font-family: "微软雅黑";
+}
+.act{
+	border-bottom: 2px solid #000;
+	padding-bottom: 3px;
+	color: #000;
+}
+
+
+/*mainPic*/
+#mianPic{
+	width: 1440px;
+	margin: 0 auto;
+	z-index: -2;
+}
+#mianPic img{
+	width: 1440px;
+	min-width: 1280px;
+	z-index: -2;
+}
+
+/*footer*/
+#footer{
+	min-width: 1280px;
+	margin: 0 auto;
+	background-color: #5b7ea4;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+/*.title{
+	width: 100%;
+	height: auto;
+	background: url(../images/mianPic_02.jpg) no-repeat center center;
+	background-size: 100% auto;
+	overflow: hidden;
+}*/
+/*content*/
+#content{
+	width: 976px;
+	padding: 10px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: -350px;
+	box-shadow: 0px 0px 5px 0px #000000;
+	font-family: "微软雅黑";
+	z-index: 5;
+	background-color: #fff;
+}
+#con_head{
+	transform: translateX(-19px); margin: 20px 0 30px;
+}
+
+
+/*info*/
+#info_p p{
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	font-family: "微软雅黑";
+}
+
+
+/*trip*/
+#table table{
+	margin-left:55px ;
+	margin-bottom: 80px;
+	border:1px solid #000000;
+	background-color: #fff ;
+}
+#table table tr{
+	height: 80px;
+	border:1px solid #000000;
+	font-family: "微软雅黑";
+}
+#table table tr td{
+	border:1px solid #000000;
+	text-align: center;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+#table #tab_one{
+	background-color: #000000;	
+}
+#table #cit{
+	width: 60px;
+}
+#table #scl{
+	width: 205px;
+}
+#table #date{
+	width: 158px;
+}
+#table #time{
+	width: 190px;
+}
+#table #loc{
+	width: 225px;
+}
+#table #a{
+	color: #fff;
+	background-color: #009FF0;
+}
+
+/*position*/
+#pos_tab{
+	margin-left: 72px;
+	margin-bottom: 40px;
+	font-family: "微软雅黑";
+}
+#pos_tab table{
+	text-align: center;
+	border:1px solid #000000;
+}
+#pos_tab table tr{
+	border: 1px solid #000000;
+}
+#pos_tab table tr td{
+	font-family: "微软雅黑";
+	line-height: 30px;
+	border:1px solid #000000;
+}
+#pos_tab a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+#pos_head{
+	background-color: #009FF0;
+	height: 63px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+#pos_tab #put{
+	background-color: #009FF0;
+}
